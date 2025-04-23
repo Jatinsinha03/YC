@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff8e1;
+  color: #333;
+}
+
+.button-orange {
+  background-color: #d35400;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button-orange:hover:not(:disabled) {
+  background-color: #e67e22;
+}
+.button-orange:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
